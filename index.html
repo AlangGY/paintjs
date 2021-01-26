@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PaintJS</title>
+</head>
+<body>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+        <div class="controls_range">
+            <input type="range" id="js-range"
+             min="0.1"
+             max="10.1" 
+             value="5.0" 
+             step="0.5"
+            >
+        </div>
+        <div class="controls_btns">
+            <button id="jsMode">Fill</button>
+            <button id="jsSave">Save</button>
+        </div>
+        <div class="controls_colors" id="jsColors">
+            <div class="controls_color jsColor" style="background-color: #423734;"></div>
+            <div class="controls_color jsColor" style="background-color: #6E5852;"></div>
+            <div class="controls_color jsColor" style="background-color: #93695D;"></div>
+            <div class="controls_color jsColor" style="background-color: #C48A74;"></div>
+            <div class="controls_color jsColor" style="background-color: #DCC5A5;"></div>
+            <div class="controls_color jsColor" style="background-color: #F9E8CA;"></div>
+            <div class="controls_color jsColor" style="background-color: #8F9E99;"></div>
+            <div class="controls_color jsColor" style="background-color: #707D80;"></div>
+            <div class="controls_color jsColor" style="background-color: #535D69;"></div>
+            <div class="controls_color jsColor" style="background-color: white;"></div>
+            <div class="controls_color jsColor" style="background-color: black;"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
